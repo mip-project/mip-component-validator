@@ -1,4 +1,4 @@
-# mip-components-validator
+# mip-component-validator
 
 MIP 组件校验
 
@@ -6,12 +6,12 @@ MIP 组件校验
 
 1. 安装
 
-`npm install mip-components-validator`
+`npm install mip-component-validator`
 
 2. API
 
 ```
-const validator = require('mip-components-validator');
+const validator = require('mip-component-validator');
 
 // 校验一个目录
 validator.validate(dirPath).then(function(result) {
