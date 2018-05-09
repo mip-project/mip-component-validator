@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/mip-project/mip-component-validator#readme",
   "devDependencies": {
-    "mip-validator": "^1.5.15"
+    "mip-validator": "^1.5.15",
+    "vue-template-compiler": "^2.5.16"
   }
 }
