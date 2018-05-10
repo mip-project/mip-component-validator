@@ -16,7 +16,7 @@ module.exports = {
             return;
         }
         errs.forEach(error => {
-            reporter.error(file.path, error.message);
+            reporter.error(file.path, error.message, error.line, error.col);
         });
     }
 };

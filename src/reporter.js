@@ -10,20 +10,20 @@ class Reporter {
         this.errors = [];
     }
 
-    warn(file, message, row, col) {
+    warn(file, message, line, col) {
         this.warns.push({
             file: file,
             message: message,
-            row: row == null ? -1 : row,
+            line: line == null ? -1 : line,
             col: col == null ? -1 : col
         });
     }
 
-    error(file, message, row, col) {
+    error(file, message, line, col) {
         this.errors.push({
             file: file,
             message: message,
-            row: row == null ? -1 : row,
+            line: line == null ? -1 : line,
             col: col == null ? -1 : col
         });
     }
@@ -31,7 +31,7 @@ class Reporter {
     getReport() {
         return {
             status: (this.warns.length || this.errors.length) ? 1 : 0,
-            warn: this.warns,
+            warns: this.warns,
             errors: this.errors
         };
     }

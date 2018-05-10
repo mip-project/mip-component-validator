@@ -6,9 +6,21 @@
 </template>
 
 <script>
-export default {
-
-}
+    export default {
+        props: {
+            model: {
+                default() {
+                    return {};
+                },
+                type: Object
+            }
+        },
+        methods: {
+            listClick(name) {
+                console.log(name);
+            }
+        }
+    }
 </script>
 
 <style>

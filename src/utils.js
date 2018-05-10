@@ -7,6 +7,6 @@
 const compiler = require('vue-template-compiler');
 module.exports = {
     parseComponent(content) {
-        return compiler.parseComponent(content);
+        return compiler.parseComponent(content, {pad: 'line'});
     }
 };

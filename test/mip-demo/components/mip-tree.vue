@@ -1,14 +1,13 @@
 <template>
     <div :click="myFunction" class="mip-tree">
+        <video src='../static/test.jpg'>
+        <span> MIP tree </span>
         <p onclick="myFunction()" class="mip-newscroll-text"> Test Example</p>
-        <img src='../static/test.jpg'>
     </div>
 </template>
 
 <script>
-export default {
-
-}
+    
 </script>
 
 <style scoped>
