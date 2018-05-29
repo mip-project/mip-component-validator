@@ -7,8 +7,7 @@
 module.exports = {
     vue: [
         'component-name',
-        'component-styles',
-        'component-template'
+        'component-styles'
     ],
     js: [
 
