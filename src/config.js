@@ -5,14 +5,14 @@
  */
 
 module.exports = {
-    vue: [
-        'component-name',
-        'component-styles'
-    ],
-    js: [
+  vue: [
+    'component-name',
+    'component-styles'
+  ],
+  js: [
 
-    ],
-    css: [
+  ],
+  css: [
 
-    ]
-};
+  ]
+}
